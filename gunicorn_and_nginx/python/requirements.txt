@@ -1,0 +1,5 @@
+python-decouple==3.4
+Django==3.0.7
+psycopg2-binary==2.8.5
+gunicorn
+Pillow==2.6.1
