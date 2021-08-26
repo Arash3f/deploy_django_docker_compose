@@ -4,11 +4,11 @@
 
 - clone project 
 
-`git clone ... `
+`git clone https://github.com/Arash3f/deploy_django_docker_compose.git `
 
 - go to project folder
 
-`cd  ... `
+`cd  deploy_django_docker_compose  `
 
 `cd  Python `
 
@@ -20,7 +20,7 @@ Now the project is running on port 8000 on container and we connect it to port 8
 
 And we can see the project on 127.0.0.1:8000
 
-> Note: for close docker-compose run this code : `sudo docker-compose down `
+> Note: to close docker-compose run this code : `sudo docker-compose down `
 
-> Note : for access to project container run this code : `sudo docker exec -it ... sh `
+> Note : to access project container run this code : `sudo docker exec -it python_web_1 sh `
 

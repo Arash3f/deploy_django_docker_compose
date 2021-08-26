@@ -4,11 +4,11 @@
 
 - clone project 
 
-`git clone ... `
+`git clone https://github.com/Arash3f/deploy_django_docker_compose.git `
 
 - go to project folder
 
-`cd  ... `
+`cd  deploy_django_docker_compose `
 
 `cd  gunicorn_and_nginx `
 
@@ -18,7 +18,7 @@
 
 - create superuser 
 
-`sudo docker exec -it ... sh`
+`sudo docker exec -it gunicorn_and_nginx_web_1 sh`
 
 `python manage.py createsuperuser`
 
@@ -32,4 +32,4 @@ And we can see the project on 127.0.0.1:8000
 
 > Note: to close docker-compose run this code : `sudo docker-compose down `
 
-> Note : to access project container run this code : `sudo docker exec -it ... sh `
+> Note : to access project container run this code : `sudo docker exec -it gunicorn_and_nginx_web_1 sh `
